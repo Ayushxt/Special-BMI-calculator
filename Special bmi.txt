@@ -1,0 +1,24 @@
+print("welcome to my special BMI calculator") 
+print("The healthy range of BMI is 18.5-24.9")
+Height=float(input("Enter your height in centimeters: "))
+Weight=float(input("Enter your Weight in Kg: "))
+Height = Height/100
+BMI=Weight/(Height*Height)
+print("your Body Mass Index is: ",BMI)
+if(BMI>0):
+	if(BMI<=16):
+		print("You are severely underweight")
+		print("Eat more carbs and good fats with a good amount of protein. You can also do wieght training ,thakns")
+	elif(BMI<=18.5):
+		print("You are underweight")
+		print("Eat more carbs and good fats with a good amount of protein. You can also do wieght training ,thakns")
+	elif(BMI<=25):
+		print("You are Healthy")
+		print("Quite impressive, keept it up and stay healthy.")
+	elif(BMI<=30):
+		print("you are overweight")
+		print("Reduce the intake of carbohydrates and eat more protein and fuits and salad")
+	else: print("You are severely overweight")
+		print("Sorry to say but you are health is at high risk, start working out and prefer not to eat junk food and eat heathy, consult a dietician")
+		
+else:("enter valid details")
