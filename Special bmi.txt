@@ -8,10 +8,10 @@ print("your Body Mass Index is: ",BMI)
 if(BMI>0):
 	if(BMI<=16):
 		print("You are severely underweight")
-		print("Eat more carbs and good fats with a good amount of protein. You can also do wieght training ,thakns")
+		print("Eat more carbs and good fats with a good amount of protein. You can also do wieght training ,thanks")
 	elif(BMI<=18.5):
 		print("You are underweight")
-		print("Eat more carbs and good fats with a good amount of protein. You can also do wieght training ,thakns")
+		print("Eat more carbs and good fats with a good amount of protein. You can also do wieght training ,thanks")
 	elif(BMI<=25):
 		print("You are Healthy")
 		print("Quite impressive, keept it up and stay healthy.")
