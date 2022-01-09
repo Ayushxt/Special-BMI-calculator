@@ -8,7 +8,7 @@
 	
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
 
-	<link rel="stylesheet" type="text/cass" href="{{ url_for('static', filename='bmi.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bmi.css') }}">
 
 </head>
 
@@ -19,9 +19,9 @@
 <div class="main">
 	<form class="pure-form" method="POST" action="/">
 	Weight in kgs:<br>
-	<input type="text" name="weight"><br>
+	<input type="text" name="weight"><br><br><br>
 	Height in cms:<br>
-	<input type="text" name="height"><br>
+	<input type="text" name="height"><br><br><br>
 	<button type="submit" class="pure-button pure-button-primary" value="Submit">Submit</button>
 	</form>
 </div>
